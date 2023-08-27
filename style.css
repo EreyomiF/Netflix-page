@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #070707;
+  box-shadow: 0 0 300px 10px rgba(13, 13, 13, 0.4) inset;
+  padding: 0;
+  margin: 0;
+}
+body .name {
+  color: transparent;
+  letter-spacing: 1.5vw;
+  display: flex;
+  perspective: 600px;
+  animation: grow 1s ease forwards;
+}
+body .container {
+  transform-style: preserve-3d;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+    color: transparent;
+  }
+  10% {
+    color: rgb(5, 5, 5);
+  }
+  50% {
+    transform: scale(1.1);
+    color: rgb(5, 4, 4);
+  }
+  100% {
+    transform: scale(0.9);
+    color: rgb(6, 6, 6);
+  }
+}
+@keyframes shrink {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+@keyframes grow {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+@keyframes long-shadow {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 10px 10px 100px #fc0217, 1px 1.5px #f50707, 2px 3px #fc0808, 3px 4.5px #fc0303, 4px 6px #fa0303, 5px 7.5px #fb0808, 6px 9px #fe0303, 7px 10.5px #f90404, 8px 12px #ff0505, 9px 13.5px #fe0202, 10px 15px #f70202, 11px 16.5px #fa0505, 12px 18px #fc0505, 13px 19.5px #fc0303, 14px 21px #f70505, 15px 22.5px #fc0404, 16px 24px #fe0505, 17px 25.5px #fa0404, 18px 27px #fd0404, 19px 28.5px #fc0404, 20px 30px #fa0202, 21px 31.5px #ff0404, 22px 33px #f80303, 23px 34.5px #f60202, 24px 36px #f50707, 25px 37.5px #fa0303, 26px 39px #f70303, 27px 40.5px #f80303, 28px 42px #fb0505, 29px 43.5px #fc0707, 30px 45px #fa0101, 31px 46.5px #f90505, 32px 48px #f70505, 33px 49.5px #fc0606, 34px 51px #fc0505, 35px 52.5px #f50202, 36px 54px #ff0505, 37px 55.5px #f20404, 38px 57px #f70505, 39px 58.5px #fb0505, 40px 60px #fb0505, 41px 61.5px #f30404, 42px 63px #f50505, 43px 64.5px #f30404, 44px 66px #f30404, 45px 67.5px #f30404, 46px 69px #f30404, 47px 70.5px #f30404, 48px 72px #f30404, 49px 73.5px #f30404, 50px 75px #f30404, 51px 76.5px #f30404, 52px 78px #f30404, 53px 79.5px #f30404, 54px 81px #f30404, 55px 82.5px #f30404, 56px 84px #f30404, 57px 85.5px #f30404, 58px 87px #f30404, 59px 88.5px #f30404, 60px 90px #f30404, 61px 91.5px #f30404, 62px 93px #f30404, 63px 94.5px #f30404, 64px 96px #f30404, 65px 97.5px #f30404, 66px 99px #f30404, 67px 100.5px #f30404, 68px 102px #f30404, 69px 103.5px #f30404, 70px 105px #f30404, 71px 106.5px #f30404, 72px 108px #f30404, 73px 109.5px #f30404, 74px 111px #f30404, 75px 112.5px #f30404, 76px 114px #f30404, 77px 115.5px #f30404, 78px 117px #f30404, 79px 118.5px #f30404, 80px 120px #f30404, 81px 121.5px #f30404, 82px 123px #f30404, 83px 124.5px #f30404, 84px 126px #f30404, 85px 127.5px #f30404, 86px 129px #f30404, 87px 130.5px #f30404, 88px 132px #f30404, 89px 133.5px #f30404, 90px 135px #f30404, 91px 136.5px #f30404, 92px 138px #f30404, 93px 139.5px #f30404, 94px 141px #f30404, 95px 142.5px #f30404, 96px 144px #f30404, 97px 145.5px #f30404, 98px 147px #f30404, 99px 148.5px #f30404, 100px 150px #f30404;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
